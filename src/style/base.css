@@ -17,7 +17,7 @@ button {
     --cor-texto-principal: #ffffff;
     --fonte-textos: 'Open Sans', sans-serif;
     --azul-neon: #2BDEFD;
-    --azul-fundo: #01080E;
+    --azul-fundo: #000;
     --cinza-claro: #999;
     --cinza-escuro: #666;
     --cinza: rgba(196, 196, 196, 0.2);
@@ -43,44 +43,31 @@ main {
     padding-right: 2.5rem;
 }
 
-/*Aside*/
+.logo {
+    width: 114px;
+}
 
+/*Aside*/
+    
 .menu-lateral {
     background-color: var(--azul-fundo);
-    padding: 2.5rem .5rem 0;
-    font-weight: 400;
-    letter-spacing: 0.25rem;
+    padding: 2.5rem 1.5625rem;
 }
 
-.menu-lateral li {
-    padding-bottom: 1.5rem;
-}
-
-.menu-lateral__link::before  {
-    padding-left: 1rem;
-    padding-right: .5rem;
-    vertical-align: middle;
-}
-
-.menu-lateral__link {
-    font-family: var(--fonte-textos);
-    font-weight: 600;
-    letter-spacing: 0.1rem;
-    margin-bottom: .5rem;
+.menu-lateral__link > a {
     white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
-.ativo {
+.menu-lateral__secao-titulo {
+    font-weight: 700;
+}
+
+.ativo  {
     color: var(--azul-neon);
-}
-
-.menu-lateral__link button img {
-    padding: 0 .5rem;
-}
-
-.menu-lateral__playlist {
-    padding-left: 1rem;
-    user-select: none;
+    font-weight: 700;
 }
 
 /*Header*/

@@ -45,7 +45,7 @@
     }
 
     .cabecalho .cabecalho__logo,
-    .cabecalho__botao__avancar {
+    #cabecalho__botao__avancar {
         display: none;
     }
 

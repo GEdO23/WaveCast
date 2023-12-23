@@ -1,12 +1,11 @@
 .menu-lateral {
     display: grid;
     grid-template-rows: repeat(3, auto) 1fr;
-    row-gap: 48px;
-    padding: 40px 25px;
+    row-gap: 3rem;
 }
 
-.menu-lateral__link >button {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.menu-lateral nav > ul, 
+.menu-lateral > section {
+    display: grid;
+    row-gap: 1.5rem;
 }
